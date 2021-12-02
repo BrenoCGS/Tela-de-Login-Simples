@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    
+}
+
+.container {
+    background-color: rgba(238, 1, 139, 0.801);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    font-family: 'Chilanka';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 255, 255);
+    border-radius: 40px;
+}
+
+.formulario {
+    align-items: center;
+}
+
+.caixa-escrita {
+    width: 370px;
+    padding: 20px;
+    border-radius: 30px;
+    line-height: 1.5;
+    border: 2px solid rgba(139, 139, 139, 0.473);
+    background-color: rgba(0, 195, 255, 0.034);
+    outline: 0;
+}
+
+.caixa-escrita:focus {
+    background-color: rgba(9, 100, 236, 0.329);
+}
+
+#enviar {
+    width: 250px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid rgba(120, 120, 121, 0);
+    background: rgb(9, 100, 236);
+    color: white;
+    font-family: Arial, Helvetica;
+    font-size: 18px;
+    
+}
+
+#enviar:hover {
+    background-color: rgba(20, 197, 58, 0.788);
+}
+
+
+
+img {
+    width: 480px;
+    height: 180px;
+    border-radius: 30px;
+
+}
+
